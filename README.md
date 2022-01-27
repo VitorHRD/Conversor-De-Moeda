@@ -3,7 +3,7 @@
 <h2 align="center">Converte as principais moedas de hoje : dólar , euro e bitcoin. </h2>
 <h1 > 🚀Features</h1>
 <p>✅ Converte Moedas dólar , euro e bitcoin para Reais ou ao contrario.</p>
-<p>✅ Possui uma Api que e atualizada constantemente.</p>
+<p>✅ Possui uma Api que é atualizada constantemente.</p>
 
 
 <h2 color="blue" align="center">
