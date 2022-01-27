@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sarala&display=swap');
+*{
+    font-family: 'Sarala',sans-serif;
+    color: #FFF;
+}
+h1{
+    margin:0;
+    letter-spacing: 3px;
+}
+h2{
+    font-size: 30px;
+}
+#avo{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+}
+#pai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 37vw;
+    height: 85vh;
+    background-color: #23232e;
+    border: rgb(43, 69, 153) 3px solid;
+    padding: 0%;
+    border-radius: 30px;
+}
+#lista{
+ list-style: none;
+ margin: 0;
+ display: flex;
+ flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  border-bottom: 0.4px white solid;
+
+}
+a{
+    text-decoration: none;
+}
+li{
+    margin-right: 3vw;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    
+    font-family: 'Sarala',sans-serif;
+
+}
+li:hover{
+    font-size: 24px;
+    text-decoration: underline;
+    transition: 0.3s;
+    
+}
+
+#valor{
+    padding: 15px;
+    color: black;
+    width: 28vw;
+    text-align: center;
+    border-radius:20px;
+}
+#button{
+    padding:10px;
+    color: black;
+    width: 130px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#trocar{
+    color: black;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+img{
+    width: 70px;
+    background-color: ivory;
+    border-radius: 50%;
+    
+
+}
+#resultado{
+    letter-spacing: 3px;
+}
+@media (max-width:900px){
+    #pai{
+        width: 100vw;
+    }
+    #valor{
+        width: 300px;
+        padding: 20px;
+        font-size: 18px;
+    }
+}
